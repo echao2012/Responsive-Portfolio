@@ -104,7 +104,7 @@ footer {
 
 /* Contact page */
 
-input[type=text], textarea {
+input[type="text"], textarea {
     width: 100%;
     padding: 10px;
     margin: 3px 0px 14px 0px;
@@ -158,5 +158,43 @@ input[type=text], textarea {
 }
 
 @media screen and (max-width: 640px) {
+    /* Header (brand and navigation links) */
 
+    h1 {
+        float: none;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    header {
+        margin-bottom: 10px;
+    }
+
+    .header-container {
+        width: 100%;
+    }
+
+    .navbar-container {
+        float: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    /* Main body/content */
+
+    .body-container {
+        width: auto;
+        border-width: 2px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin: 0 10px 80px 10px; 
+    }
+
+    /* About Me page */
+
+    #about-image {
+        float: none;
+        width: 100%;
+        height: auto;
+    }
 }
