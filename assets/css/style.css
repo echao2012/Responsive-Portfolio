@@ -1,9 +1,17 @@
+/* General */
+
 body {
     margin: 0 auto;
     text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url("../images/gravel.png");
 }
+
+a {
+    text-decoration: none;
+}
+
+/* Header (brand and navigation links) */
 
 header {
     width: 100%;
@@ -21,21 +29,6 @@ h1 {
     margin: 0px;
     color: #ffffff;
     background: #4aaaa5;
-}
-
-h2 {
-    margin: 0px;
-    color: #4aaaa5;
-}
-
-a {
-    text-decoration: none;
-}
-
-hr {
-    margin: 20px 0px;
-    border-color: #cccccc;
-    border-style: solid;
 }
 
 .header-container {
@@ -58,6 +51,19 @@ hr {
     color: #777777;
 }
 
+/* Main body/content */
+
+h2 {
+    margin: 0px;
+    color: #4aaaa5;
+}
+
+hr {
+    margin: 20px 0px;
+    border-color: #cccccc;
+    border-style: solid;
+}
+
 .body-container {
     display: inline-block;
     text-align: left;
@@ -71,12 +77,7 @@ hr {
     border-color: #dddddd;
 }
 
-#about-image {
-    float: left;
-    margin: 10px 20px 0px 0px;
-    width: auto;
-    height: 160px;
-}
+/* Footer */
 
 footer {
     position: fixed;
@@ -91,6 +92,17 @@ footer {
     border-width: 6px;
     border-color: #4aaaa5;
 }
+
+/* About Me page */
+
+#about-image {
+    float: left;
+    margin: 10px 20px 0px 0px;
+    width: auto;
+    height: 160px;
+}
+
+/* Contact page */
 
 input[type=text], textarea {
     width: 100%;
@@ -115,6 +127,8 @@ input[type=text], textarea {
     background-color: #367c79;
 }
 
+/* Portfolio page */
+
 .portfolio-container {
     position: relative;
     display: inline-block;
@@ -133,4 +147,16 @@ input[type=text], textarea {
     position: absolute;
     color: #ffffff;
     background-color: #4aaaa5;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+
 }
