@@ -137,6 +137,7 @@ input[type="text"], textarea {
 
 .portfolio-img {
     float: left;
+    width: 100%
 }
 
 .portfolio-txt {
@@ -149,12 +150,86 @@ input[type="text"], textarea {
     background-color: #4aaaa5;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (min-width: 768px) and (max-width: 980px) {
+    /* Header (brand and navigation links) */
 
+    h1 {
+        margin-left: 50px;
+    }
+
+    .header-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .navbar-container {
+        margin-right: 50px;
+    }
+
+    /* Main body/content */
+    .body-container {
+        float: left;
+        width: 600px;
+        border-width: 2px;
+        margin: 0 50px 100px 50px;
+    }
+
+    /* Portfolio page */
+
+    .portfolio-container {
+        width: 47%;
+        margin-right: 6%;
+        margin-bottom: 5px;
+    }
+
+    .portfolio-container:nth-child(even) {
+        float: right;
+        margin-right: 0px;
+    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 641px) and (max-width: 768px) {
+    /* Header (brand and navigation links) */
 
+    h1 {
+        margin-left: 10px;
+    }
+
+    .header-container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .navbar-container {
+        margin-right: 10px;
+    }
+
+    /* Main body/content */
+    .body-container {
+        width: auto;
+        border-width: 2px;
+        margin: 0 10px 100px 10px;
+    }
+
+    /* About Me page */
+
+    #about-image {
+        width: 50%;
+        height: auto;
+    }
+
+    /* Portfolio page */
+
+    .portfolio-container {
+        width: 47%;
+        margin-right: 6%;
+        margin-bottom: 10px;
+    }
+
+    .portfolio-container:nth-child(even) {
+        float: right;
+        margin-right: 0px;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -172,6 +247,8 @@ input[type="text"], textarea {
 
     .header-container {
         width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .navbar-container {
@@ -185,8 +262,6 @@ input[type="text"], textarea {
     .body-container {
         width: auto;
         border-width: 2px;
-        margin-left: 10px;
-        margin-right: 10px;
         margin: 0 10px 80px 10px; 
     }
 
@@ -196,5 +271,12 @@ input[type="text"], textarea {
         float: none;
         width: 100%;
         height: auto;
+    }
+
+    /* Portfolio page */
+
+    .portfolio-container {
+        width: 100%;
+        margin: 10px 0px 10px 0px;
     }
 }
