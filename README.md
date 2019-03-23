@@ -1,5 +1,5 @@
 # Responsive-Portfolio
-HW2.2
+**Visit the deployed site here: https://echao2012.github.io/Responsive-Portfolio/**
 
 This example portfolio website implements media queries for a responsive layout.
 
